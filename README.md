@@ -15,7 +15,7 @@ This pipeline streamlines end-to-end RNA-seq analysis, from raw sequencing data 
 
 
 ## 📂 Repository Structure  
-'''
+'''plaintext
 RNA-seq-Analysis-Pipeline/
 ├── README.md                      # Main documentation (you're here)
 ├── upstream_analysis/             # Step 1: Raw data → Quantification
@@ -214,6 +214,7 @@ Push to the branch (git push origin feature/new-tool)
 Open a Pull Request
 📞 Support
 For questions or issues, open a GitHub Issue or contact the maintainer at [smart_lotus@163.com].
+
 
 
 
