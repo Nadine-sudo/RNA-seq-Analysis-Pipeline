@@ -7,7 +7,7 @@ This pipeline streamlines end-to-end RNA-seq analysis, from raw sequencing data 
 
 | Analysis Stage         | Corresponding Directory       | Core Scripts                          | Key Outputs                              |
 |------------------------|--------------------------------|---------------------------------------|------------------------------------------|
-| 1. Upstream Processing | `upstream_analysis/`           | `RNAseq_pipeline.sh`                  | Cleaned FASTQs, alignment BAMs, StringTie quantification (TPM/FPKM) |
+| 1. Upstream Processing | `upstream_analysis/`           | `RNAseq_pipeline.sh`                  | Cleaned FASTQs, alignment BAMs, StringTie quantification |
 | 2. Data Postprocessing | `postprocessing/`              | `RNAseq_postprocessing.sh` | Gene/transcript count matrices (for DE analysis) |
 | 3. Differential Expression | `differential_expression/`   | `ballgown_analysis.R` <br> `deseq2_analysis.R` | DE gene/transcript lists, volcano plots, MA plots |
 | 4. Functional Clustering | `functional_analysis/`        | `mfuzz_clustering.R`                  | Expression pattern clusters, cluster-specific gene lists |
@@ -15,7 +15,7 @@ This pipeline streamlines end-to-end RNA-seq analysis, from raw sequencing data 
 
 
 ## 📂 Repository Structure  
-
+'''
 RNA-seq-Analysis-Pipeline/
 ├── README.md                      # Main documentation (you're here)
 ├── upstream_analysis/             # Step 1: Raw data → Quantification
@@ -35,7 +35,7 @@ RNA-seq-Analysis-Pipeline/
 └── isoform_analysis/              # Step 5: Isoform analysis (optional)
 ├── isoform_analysis_part1.R   # Preprocessing + sequence extraction
 └── isoform_analysis_part2.R   # External tool integration + final analysis
- 
+ '''
 
 
 ## 🚀 Quick Start  
@@ -215,4 +215,5 @@ Push to the branch (git push origin feature/new-tool)
 Open a Pull Request
 📞 Support
 For questions or issues, open a GitHub Issue or contact the maintainer at [smart_lotus@163.com].
+
 
