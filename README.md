@@ -53,7 +53,7 @@ Install required software and packages before starting:
 - R 4.0+  
 
 **Installation Example**:  
-```bash
+```
 1. Install R Packages
 Required for DE analysis, clustering, and isoform analysis:
 # Run this in an R console
@@ -200,7 +200,7 @@ Gene-to-cluster mapping
 isoform_analysis/
 isoform_switches.csv
 Isoform switches with functional impacts
-
+```
 ❗ Troubleshooting
 Upstream script fails: Check upstream_analysis/logs/ for error messages. Common issues: missing genome index, insufficient threads, or malformed FASTQ files.
 DE analysis errors: Ensure count matrices have no missing values. Use the --filter_low_counts flag in RNAseq_postprocessing.sh to remove low-expression genes.
@@ -214,6 +214,7 @@ Push to the branch (git push origin feature/new-tool)
 Open a Pull Request
 📞 Support
 For questions or issues, open a GitHub Issue or contact the maintainer at [smart_lotus@163.com].
+
 
 
 
