@@ -15,7 +15,7 @@ This pipeline streamlines end-to-end RNA-seq analysis, from raw sequencing data 
 
 
 ## 📂 Repository Structure  
-'''plaintext
+'''
 RNA-seq-Analysis-Pipeline/
 ├── README.md                      # Main documentation (you're here)
 ├── upstream_analysis/             # Step 1: Raw data → Quantification
@@ -33,9 +33,9 @@ RNA-seq-Analysis-Pipeline/
 ├── functional_analysis/           # Step 4: Functional clustering (optional)
 │   └── mfuzz_clustering.R         # Cluster DE genes by expression patterns
 └── isoform_analysis/              # Step 5: Isoform analysis (optional)
-├── isoform_analysis_part1.R   # Preprocessing + sequence extraction
-└── isoform_analysis_part2.R   # External tool integration + final analysis
-
+    ├── isoform_analysis_part1.R   # Preprocessing + sequence extraction
+    └── isoform_analysis_part2.R   # External tool integration + final analysis
+'''
 
 ## 🚀 Quick Start  
 Follow these steps to run the pipeline with your data.
@@ -214,6 +214,7 @@ Push to the branch (git push origin feature/new-tool)
 Open a Pull Request
 📞 Support
 For questions or issues, open a GitHub Issue or contact the maintainer at [smart_lotus@163.com].
+
 
 
 
